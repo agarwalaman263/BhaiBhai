@@ -1,0 +1,11 @@
+To start CyVis:
+
+    Double Click on the cyvis-0.9.jar file or run the cyvis.bat file in the bin folder.
+
+Help Files:
+
+   For more information on installation please read the release notes in the docs folder. 
+ 
+   Read the user manual located in the docs folder to see how to integrate cyvis 
+   with Ant or to execute cyvis from command interface.
+

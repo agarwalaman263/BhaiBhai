@@ -1,0 +1,12 @@
+Testsuite: cyvis.TestAllSuites
+Tests run: 9, Failures: 0, Errors: 0, Time elapsed: 14.782 sec
+
+Testcase: testgetArgType took 0.016 sec
+Testcase: testgetFile took 0 sec
+Testcase: testisValidProjectFile took 0.016 sec
+Testcase: testisValidFile took 0.015 sec
+Testcase: testisFileReadable took 0 sec
+Testcase: testparseTextFile took 0 sec
+Testcase: testgetClassMetric took 0.063 sec
+Testcase: testCollectMetric took 3.531 sec
+Testcase: testCyvis took 11.141 sec

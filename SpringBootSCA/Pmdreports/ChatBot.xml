@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.16.0" timestamp="2019-09-09T16:08:30.893">
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\AddAiml.java">
+<violation beginline="11" endline="25" begincolumn="22" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.main" class="AddAiml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="11" endline="25" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.main" class="AddAiml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'AddAiml' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\Application.java">
+<violation beginline="12" endline="16" begincolumn="26" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.main" class="Application" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\chatbot\ChatBot.java">
+<violation beginline="10" endline="33" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="com.main.chatbot" class="ChatBot" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="10" endline="33" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.main.chatbot" class="ChatBot" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'ChatBot' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\chatbot\ChatbotController.java">
+<violation beginline="23" endline="23" begincolumn="1" endcolumn="23" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="com.main.chatbot" class="ChatbotController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="35" endline="35" begincolumn="3" endcolumn="60" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="com.main.chatbot" class="ChatbotController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="36" endline="36" begincolumn="3" endcolumn="30" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="com.main.chatbot" class="ChatbotController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\customer\CustomerController.java">
+<violation beginline="15" endline="15" begincolumn="1" endcolumn="28" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="com.main.customer" class="CustomerController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="22" endline="22" begincolumn="3" endcolumn="44" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="com.main.customer" class="CustomerController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="23" endline="23" begincolumn="3" endcolumn="30" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="com.main.customer" class="CustomerController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\device\Device.java">
+<violation beginline="46" endline="48" begincolumn="10" endcolumn="3" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="com.main.device" class="Device" method="Device" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\device\DeviceController.java">
+<violation beginline="17" endline="17" begincolumn="17" endcolumn="39" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="com.main.device" class="DeviceController" method="util" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\device\DeviceMapper.java">
+<violation beginline="8" endline="26" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="com.main.device" class="DeviceMapper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="8" endline="26" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.main.device" class="DeviceMapper" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'DeviceMapper' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\product\ProductSuggestion.java">
+<violation beginline="15" endline="27" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="com.main.product" class="ProductSuggestion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="15" endline="27" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.main.product" class="ProductSuggestion" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'ProductSuggestion' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\product\ProductUtil.java">
+<violation beginline="15" endline="62" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="com.main.product" class="ProductUtil" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="27" endline="29" begincolumn="13" endcolumn="80" rule="UselessParentheses" ruleset="Code Style" package="com.main.product" class="ProductUtil" method="hasExactMatch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\result\DetailsToSalesPeople.java">
+<violation beginline="12" endline="32" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="com.main.result" class="DetailsToSalesPeople" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="12" endline="32" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.main.result" class="DetailsToSalesPeople" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'DetailsToSalesPeople' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="18" endline="18" begincolumn="9" endcolumn="80" rule="UnnecessaryModifier" ruleset="Code Style" package="com.main.result" class="DetailsToSalesPeople" method="addDetailsToCSV" variable="pw" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'final' on resource specification 'pw': resource specifications are implicitly final
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\result\ResultPageController.java">
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="22" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="com.main.result" class="ResultPageController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="21" endline="21" begincolumn="3" endcolumn="44" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="com.main.result" class="ResultPageController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+<violation beginline="22" endline="22" begincolumn="3" endcolumn="32" rule="UnnecessaryAnnotationValueElement" ruleset="Code Style" package="com.main.result" class="ResultPageController" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#unnecessaryannotationvalueelement" priority="3">
+Avoid the use of value in annotations when its the only element
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\util\ConvertToJSON.java">
+<violation beginline="9" endline="26" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="com.main.util" class="ConvertToJSON" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="9" endline="26" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.main.util" class="ConvertToJSON" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'ConvertToJSON' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\util\ResourcePath.java">
+<violation beginline="8" endline="18" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="com.main.util" class="ResourcePath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="8" endline="18" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.main.util" class="ResourcePath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'ResourcePath' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\util\StringSimilarity.java">
+<violation beginline="8" endline="30" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="com.main.util" class="StringSimilarity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="8" endline="30" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.main.util" class="StringSimilarity" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'StringSimilarity' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\util\Utility.java">
+<violation beginline="6" endline="14" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="com.main.util" class="Utility" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="6" endline="14" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.main.util" class="Utility" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'Utility' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="11" endline="11" begincolumn="12" endcolumn="29" rule="UselessParentheses" ruleset="Code Style" package="com.main.util" class="Utility" method="checkPercentage" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\AddAimlTest.java">
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="24" rule="ImportFromSamePackage" ruleset="Error Prone" package="com.main" class="AddAimlTest" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#importfromsamepackage" priority="3">
+No need to import a type that lives in the same package
+</violation>
+<violation beginline="15" endline="15" begincolumn="5" endcolumn="30" rule="UseAssertTrueInsteadOfAssertEquals" ruleset="Best Practices" package="com.main" class="AddAimlTest" method="testUpdateAiml" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#useasserttrueinsteadofassertequals" priority="3">
+Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\automation\WebAuto.java">
+<violation beginline="12" endline="55" begincolumn="22" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.main.automation" class="WebAuto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="12" endline="55" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.main.automation" class="WebAuto" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'WebAuto' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="17" endline="17" begincolumn="18" endcolumn="20" rule="LocalVariableNamingConventions" ruleset="Code Style" package="com.main.automation" class="WebAuto" method="automate" variable="URL" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'URL' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="47" endline="47" begincolumn="18" endcolumn="26" rule="LocalVariableNamingConventions" ruleset="Code Style" package="com.main.automation" class="WebAuto" method="automate" variable="Suggested" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'Suggested' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\device\DeviceMapperTest.java">
+<violation beginline="26" endline="26" begincolumn="15" endcolumn="57" rule="UselessParentheses" ruleset="Code Style" package="com.main.device" class="DeviceMapperTest" method="testCreateObject" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\product\ProductSuggestionTest.java">
+<violation beginline="31" endline="44" begincolumn="10" endcolumn="3" rule="MethodNamingConventions" ruleset="Code Style" package="com.main.product" class="ProductSuggestionTest" method="testCompareProduct_notexactmatch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The JUnit 4 test method name 'testCompareProduct_notexactmatch' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\product\ProductUtilTest.java">
+<violation beginline="31" endline="31" begincolumn="5" endcolumn="30" rule="UseAssertTrueInsteadOfAssertEquals" ruleset="Best Practices" package="com.main.product" class="ProductUtilTest" method="testHasExactMatchforExactMatch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#useasserttrueinsteadofassertequals" priority="3">
+Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+</violation>
+<violation beginline="51" endline="51" begincolumn="5" endcolumn="31" rule="UseAssertTrueInsteadOfAssertEquals" ruleset="Best Practices" package="com.main.product" class="ProductUtilTest" method="testHasExactMatchforNotExactMatch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#useasserttrueinsteadofassertequals" priority="3">
+Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+</violation>
+<violation beginline="72" endline="72" begincolumn="5" endcolumn="30" rule="UseAssertTrueInsteadOfAssertEquals" ruleset="Best Practices" package="com.main.product" class="ProductUtilTest" method="testHasSimilarMatch" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#useasserttrueinsteadofassertequals" priority="3">
+Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\util\StringSimilirityTest.java">
+<violation beginline="12" endline="16" begincolumn="10" endcolumn="3" rule="MethodNamingConventions" ruleset="Code Style" package="com.main.util" class="StringSimilirityTest" method="testSimilarity_EqualString" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The JUnit 4 test method name 'testSimilarity_EqualString' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="18" endline="22" begincolumn="10" endcolumn="3" rule="MethodNamingConventions" ruleset="Code Style" package="com.main.util" class="StringSimilirityTest" method="testSimilarity_EmptyString" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The JUnit 4 test method name 'testSimilarity_EmptyString' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="24" endline="28" begincolumn="10" endcolumn="3" rule="MethodNamingConventions" ruleset="Code Style" package="com.main.util" class="StringSimilirityTest" method="testSimilarity_NonEqualString1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The JUnit 4 test method name 'testSimilarity_NonEqualString1' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="30" endline="34" begincolumn="10" endcolumn="3" rule="MethodNamingConventions" ruleset="Code Style" package="com.main.util" class="StringSimilirityTest" method="testSimilarity_NonEqualString2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The JUnit 4 test method name 'testSimilarity_NonEqualString2' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+</pmd>

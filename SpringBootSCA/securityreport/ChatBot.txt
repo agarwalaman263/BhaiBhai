@@ -1,0 +1,135 @@
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 11 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\AddAiml.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 38 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\Application.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 52 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\chatbot\ChatBot.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.io.File
+Line: 81 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\chatbot\ChatbotController.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 100 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\chatbot\ChatbotController.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 157 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\customer\CustomerController.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 182 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\customer\CustomerDAO.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 205 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\customer\CustomerDetails.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 271 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\customer\CustomerUtil.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 286 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\device\Device.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 378 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\device\DeviceController.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 413 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\device\DeviceDAO.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 456 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\device\DeviceMapper.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 486 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\product\ProductPreferences.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.io.FileReader
+Line: 501 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\product\ProductSuggestion.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 501 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\product\ProductSuggestion.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 510 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\product\ProductSuggestion.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 537 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\product\ProductUtil.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 570 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\product\ProductUtil.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - java.io.FileWriter
+Line: 590 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\result\DetailsToSalesPeople.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 590 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\result\DetailsToSalesPeople.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 596 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\result\DetailsToSalesPeople.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 632 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\result\ResultPageController.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 657 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\result\ResultUtil.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 681 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\util\ConvertToJSON.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.io.File
+Line: 704 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\util\ResourcePath.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 706 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\util\ResourcePath.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 724 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\util\StringSimilarity.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 740 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\util\StringSimilarity.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 752 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\main\java\com\main\util\Utility.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 887 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\AddAimlTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 910 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\automation\UIAutomationTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.util.Random
+Line: 934 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\automation\WebAuto.java
+This package is flawed and produces predictable values for any given seed which are easily reproducible once the starting seed is identified.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 940 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\automation\WebAuto.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 992 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\chatbot\ChatBotControllerTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1008 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\chatbot\ChatBotTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1033 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\customer\CustomerDetailsTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1104 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\device\DeviceMapperTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1134 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\device\DeviceTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1276 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\product\ProductSuggestionTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1320 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\product\ProductUtilTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1401 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\util\ConvertToJSONTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1437 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\util\ResourcePathTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1455 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\util\StringSimilirityTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1491 - C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\util\UtilityTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.

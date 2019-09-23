@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.16.0" timestamp="2019-09-16T21:03:36.439">
+<file name="C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\Application.java">
+<violation beginline="13" endline="21" begincolumn="26" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.philips" class="Application" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="14" endline="15" begincolumn="13" endcolumn="3" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="com.philips" class="Application" method="Application" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+</file>
+<file name="C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\CodeCoverageService.java">
+<violation beginline="13" endline="13" begincolumn="22" endcolumn="31" rule="CloseResource" ruleset="Error Prone" package="com.philips" class="CodeCoverageService" method="parseCsvFile" variable="filereader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileReader object are closed after use
+</violation>
+</file>
+<file name="C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\Commands.java">
+<violation beginline="6" endline="92" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.philips" class="Commands" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="6" endline="92" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.philips" class="Commands" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'Commands' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="9" endline="10" begincolumn="13" endcolumn="3" rule="UncommentedEmptyConstructor" ruleset="Documentation" package="com.philips" class="Commands" method="Commands" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_documentation.html#uncommentedemptyconstructor" priority="3">
+Document empty constructor
+</violation>
+</file>
+<file name="C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\CyclomaticComplexityService.java">
+<violation beginline="22" endline="22" begincolumn="26" endcolumn="27" rule="CloseResource" ruleset="Error Prone" package="com.philips" class="CyclomaticComplexityService" method="extractTextDetails" variable="br" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this BufferedReader object are closed after use
+</violation>
+</file>
+<file name="C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\SecurityService.java">
+<violation beginline="16" endline="16" begincolumn="22" endcolumn="23" rule="CloseResource" ruleset="Error Prone" package="com.philips" class="SecurityService" method="parseTextFile" variable="fr" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileReader object are closed after use
+</violation>
+<violation beginline="17" endline="17" begincolumn="26" endcolumn="27" rule="CloseResource" ruleset="Error Prone" package="com.philips" class="SecurityService" method="parseTextFile" variable="br" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileReader object are closed after use
+</violation>
+</file>
+<file name="C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\UnitTestService.java">
+<violation beginline="17" endline="17" begincolumn="26" endcolumn="28" rule="CloseResource" ruleset="Error Prone" package="com.philips" class="UnitTestService" method="runCommand" variable="out" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this BufferedReader object are closed after use
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,23 @@
+[EMMA v2.0.5312 report, generated Tue Jun 27 23:26:50 EST 2006]
+-------------------------------------------------------------------------------
+OVERALL COVERAGE SUMMARY:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+78%  (14/18)!	68%  (51/75)!	71%  (1693/2385)!	70%  (392.8/564)!	all classes
+
+OVERALL STATS SUMMARY:
+
+total packages:	4
+total classes:	18
+total methods:	75
+total executable files:	18
+total executable lines:	564
+
+COVERAGE BREAKDOWN BY PACKAGE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+100% (4/4)	70%  (23/33)!	62%  (848/1372)!	60%  (190.2/318)!	cyvis.core
+20%  (1/5)!	14%  (1/7)!	69%  (91/131)!	67%  (20/30)!	cyvis.config
+100% (5/5)	68%  (13/19)!	82%  (512/628)	82%  (125.7/154)	cyvis.util
+100% (4/4)	88%  (14/16)	95%  (242/254)	92%  (57/62)	cyvis.metric
+-------------------------------------------------------------------------------

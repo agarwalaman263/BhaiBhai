@@ -1,0 +1,387 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="CyVis%20Command%20Interface_files/filelist.xml">
+<title>CyVis Command Interface</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Swinburne</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Pradeep Selvaraj</o:LastAuthor>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>68</o:TotalTime>
+  <o:Created>2006-06-22T00:46:00Z</o:Created>
+  <o:LastSaved>2006-06-27T13:41:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>306</o:Words>
+  <o:Characters>1750</o:Characters>
+  <o:Company>Swinburne University</o:Company>
+  <o:Lines>14</o:Lines>
+  <o:Paragraphs>4</o:Paragraphs>
+  <o:CharactersWithSpaces>2052</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-AU;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+tt
+	{font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+p.style6, li.style6, div.style6
+	{mso-style-name:style6;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#666666;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:373626479;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-860579618 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:16.0pt'>CyVis Command Interface<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:16.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-AU
+style='font-size:14.0pt;font-family:Arial'>Running CyVis</span></b><span
+lang=EN-AU>: </span></p>
+
+<p class=style6 style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 36.0pt'><![if !supportLists]><span style='color:windowtext'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='color:windowtext'>Extract the zip
+file to the desired location.<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=style6 style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 36.0pt'><![if !supportLists]><span style='color:windowtext'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='color:windowtext'>Launch the
+command window and change to that directory\cyvis\<o:p></o:p></span></p>
+
+<p class=style6 style='margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 36.0pt'><![if !supportLists]><span style='color:windowtext'><span
+style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='color:windowtext'>Run the jar file
+with the usage given below. <o:p></o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-AU>Usage:</span></b><span
+lang=EN-AU> java –jar <span class=SpellE>cyvis-major.minor.jar</span>
+[-options]</span></p>
+
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0'>
+  <td width=144 valign=top style='width:108.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>-?,--help<span
+  style='mso-spacerun:yes'>             </span></span></p>
+  </td>
+  <td width=424 valign=top style='width:318.1pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>: print this message</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=144 valign=top style='width:108.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>-V,--version<span
+  style='mso-spacerun:yes'>          </span></span></p>
+  </td>
+  <td width=424 valign=top style='width:318.1pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>: print the version information and exit</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=144 valign=top style='width:108.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>-h,--html &lt;file&gt;<span
+  style='mso-spacerun:yes'>      </span></span></p>
+  </td>
+  <td width=424 valign=top style='width:318.1pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>: use given file for html report</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=144 valign=top style='width:108.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>-p,--project &lt;file&gt;<span
+  style='mso-spacerun:yes'>   </span></span></p>
+  </td>
+  <td width=424 valign=top style='width:318.1pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>: use given file as the input</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=144 valign=top style='width:108.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>-t,--text &lt;file&gt;<span
+  style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'>    </span></span></p>
+  </td>
+  <td width=424 valign=top style='width:318.1pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>: use given file for txt report</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=144 valign=top style='width:108.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>-v,--verbose<span
+  style='mso-spacerun:yes'>          </span></span></p>
+  </td>
+  <td width=424 valign=top style='width:318.1pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>: shows all process information</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6;mso-yfti-lastrow:yes'>
+  <td width=144 valign=top style='width:108.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>-x,--xml &lt;file&gt;<span
+  style='mso-spacerun:yes'>       </span></span></p>
+  </td>
+  <td width=424 valign=top style='width:318.1pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span lang=EN-AU>: use given file for xml dump </span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=EN-AU>Note: If not options are provided then the
+Graphical Interface opens up. </span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-AU
+style='font-size:14.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-AU
+style='font-size:14.0pt;font-family:Arial'>Examples for creating reports</span></b><span
+lang=EN-AU>: </span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-AU>Example</span></b><span
+lang=EN-AU>: Jar file as input and creating HTML report </span></p>
+
+<p class=MsoNormal><span lang=EN-AU>[CYVIS-HOME]\ java –jar cyvis-0.8.jar<span
+style='mso-spacerun:yes'>  </span>-p a.jar -h aReport.html</span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-AU>Example</span></b><span
+lang=EN-AU>: Class file as input and creating HTML report</span></p>
+
+<p class=MsoNormal><span lang=EN-AU>[CYVIS-HOME]\ java –jar cyvis-0.8.jar<span
+style='mso-spacerun:yes'>  </span>-p a.class -h aReport.html</span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-AU>Example</span></b><span
+lang=EN-AU>: Jar file as input and creating TXT report </span></p>
+
+<p class=MsoNormal><span lang=EN-AU>[CYVIS-HOME]\ java –jar cyvis-0.8.jar<span
+style='mso-spacerun:yes'>  </span>-p a.jar -t aReport.txt</span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-AU>Example</span></b><span
+lang=EN-AU>: Class file as input and creating TXT report</span></p>
+
+<p class=MsoNormal><span lang=EN-AU>[CYVIS-HOME]\ java –jar cyvis-0.8.jar<span
+style='mso-spacerun:yes'>  </span>-p a.class -t aReport.txt</span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-AU>Example</span></b><span
+lang=EN-AU>: Jar file as input and creating XML Dump</span></p>
+
+<p class=MsoNormal><span lang=EN-AU>[CYVIS-HOME]\ java –jar cyvis-0.8.jar<span
+style='mso-spacerun:yes'>  </span>-p a.jar -x aReport.xml</span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-AU>Example</span></b><span
+lang=EN-AU>: Class file as input and creating XML Dump</span></p>
+
+<p class=MsoNormal><span lang=EN-AU>[CYVIS-HOME]\ java –jar cyvis-0.8.jar<span
+style='mso-spacerun:yes'>  </span>-p a.class -x aReport.xml</span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'><span lang=EN-AU>Batch Processing</span></i></b><span lang=EN-AU>: </span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:36.0pt'><span lang=EN-AU>In case you want
+to batch processing where you want to give multiple jars or classes or a
+combination of both, you can do it as follows,</span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:18.0pt'><span lang=EN-AU>Create a text
+file(*.txt) that contains the absolute paths of your files (jars and classes)
+in separate lines.<span style='mso-spacerun:yes'>   </span></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU>Example</span></b><span lang=EN-AU>: a.txt contains </span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt'><span lang=EN-AU>C:\temp\cyvis.jar</span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt'><span lang=EN-AU>C:\temp\cyvis\core\test\TestSuite.class</span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-AU>After text file is done you can create the
+report as shown below</span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span lang=EN-AU>Example</span></b><span
+lang=EN-AU>: Text file as input and creating HTML report</span></p>
+
+<p class=MsoNormal><span lang=EN-AU>[CYVIS-HOME]\ java –jar cyvis-0.8.jar<span
+style='mso-spacerun:yes'>  </span>-p a.txt -h aReport.html</span></p>
+
+<p class=MsoNormal><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-AU>You can use this text file to generate text
+reports and XML dump.</span></p>
+
+</div>
+
+</body>
+
+</html>

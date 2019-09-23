@@ -1,0 +1,246 @@
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 9 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\Application.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.io.File
+Line: 17 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\controller\GatingController.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 49 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\controller\GatingController.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 194 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\controller\GatingToolErrorAdvice.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.io.File
+Line: 214 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\service\GatingService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 215 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\service\GatingService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.FileOutputStream
+Line: 215 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\service\GatingService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.FileReader
+Line: 216 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\service\GatingService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 216 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\service\GatingService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 237 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\service\GatingService.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Failure To Release Resources In All Cases
+Line: 298 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\service\GatingService.java
+There appears to be no release of resources in the 'finally' block, potentially resulting in DoS conditions from excessive resource consumption.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 402 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\service\ProcessUtility.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 425 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\service\QualityParameters.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.io.File
+Line: 505 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\CyvisService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.FileReader
+Line: 506 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\CyvisService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 506 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\CyvisService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 526 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\CyvisService.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 616 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\CyvisService.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 618 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\CyvisService.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 646 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\JacocoResponse.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.io.File
+Line: 683 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\JacocoService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 701 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\JacocoService.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 747 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\JacocoService.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 748 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\JacocoService.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 750 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\JacocoService.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 832 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\JacocoService.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 833 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\JacocoService.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 880 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\PMDService.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.io.File
+Line: 956 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\SimianService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 957 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\SimianService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.FileReader
+Line: 958 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\SimianService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 958 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\SimianService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 975 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\SimianService.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1095 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\VCGService.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 1156 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\VCGService.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 1161 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\VCGService.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1184 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfig.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.io.File
+Line: 1204 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfigService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - FileInputStream
+Line: 1205 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfigService.java
+This function acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 1205 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfigService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 1206 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfigService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.FileOutputStream
+Line: 1206 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfigService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1213 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfigService.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - FileInputStream
+Line: 1217 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfigService.java
+This function acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - FileInputStream
+Line: 1221 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfigService.java
+This function acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Failure To Release Resources In All Cases
+Line: 1244 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfigService.java
+There appears to be no 'finally' block to release resources if an exception occurs, potentially resulting in DoS conditions from excessive resource consumption.
+Potentially Unsafe Code - FileStream Opened Without Exception Handling
+Line: 1244 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfigService.java
+There appears to be no 'try' block to safely open the filestream, potentially resulting in server-side exceptions.
+Potentially Unsafe Code - Failure To Release Resources In All Cases
+Line: 1244 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfigService.java
+There appears to be no release of resources in the 'finally' block, potentially resulting in DoS conditions from excessive resource consumption.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1251 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfig.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.io.File
+Line: 1268 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfigService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - FileInputStream
+Line: 1269 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfigService.java
+This function acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 1269 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfigService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 1270 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfigService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.FileOutputStream
+Line: 1270 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfigService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1277 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfigService.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - FileInputStream
+Line: 1281 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfigService.java
+This function acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - FileInputStream
+Line: 1285 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfigService.java
+This function acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Failure To Release Resources In All Cases
+Line: 1311 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfigService.java
+There appears to be no 'finally' block to release resources if an exception occurs, potentially resulting in DoS conditions from excessive resource consumption.
+Potentially Unsafe Code - FileStream Opened Without Exception Handling
+Line: 1311 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfigService.java
+There appears to be no 'try' block to safely open the filestream, potentially resulting in server-side exceptions.
+Potentially Unsafe Code - Failure To Release Resources In All Cases
+Line: 1311 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfigService.java
+There appears to be no release of resources in the 'finally' block, potentially resulting in DoS conditions from excessive resource consumption.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1322 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfig.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.io.File
+Line: 1387 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfigService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - FileInputStream
+Line: 1388 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfigService.java
+This function acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 1388 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfigService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.File
+Line: 1389 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfigService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - java.io.FileOutputStream
+Line: 1389 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfigService.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1396 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfigService.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - FileInputStream
+Line: 1400 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfigService.java
+This function acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - FileInputStream
+Line: 1404 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfigService.java
+This function acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Failure To Release Resources In All Cases
+Line: 1441 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfigService.java
+There appears to be no 'finally' block to release resources if an exception occurs, potentially resulting in DoS conditions from excessive resource consumption.
+Potentially Unsafe Code - FileStream Opened Without Exception Handling
+Line: 1441 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfigService.java
+There appears to be no 'try' block to safely open the filestream, potentially resulting in server-side exceptions.
+Potentially Unsafe Code - Failure To Release Resources In All Cases
+Line: 1441 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfigService.java
+There appears to be no release of resources in the 'finally' block, potentially resulting in DoS conditions from excessive resource consumption.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1449 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ToolResponse.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1507 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\VCGConfig.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1516 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\utility\InvalidInputException.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - java.io.File
+Line: 1527 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\utility\Utility.java
+This functionality acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1530 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\utility\Utility.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1576 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\test\java\com\gating\service\GatingServiceTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1637 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\test\java\com\gating\staticanalysis\service\CyvisServiceTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1695 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\test\java\com\gating\staticanalysis\service\PMDServiceTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1766 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\test\java\com\gating\staticanalysis\service\SimianServiceTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1817 - C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\test\java\com\gating\staticanalysis\service\VCGServiceTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.

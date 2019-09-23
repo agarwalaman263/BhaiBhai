@@ -1,0 +1,10 @@
+com\philips\SecurityServiceTest.class
+com\philips\UnitTestServiceTest.class
+com\philips\CodeCoverageServiceTest.class
+com\philips\StaticToolServiceTest.class
+com\philips\CyclomaticComplexityServiceTest.class
+com\philips\CommandsTest.class
+com\philips\ResultsTest.class
+com\philips\GatingServiceTest.class
+com\philips\StaticWarningsServiceTest.class
+com\philips\ResultsMapperTest.class

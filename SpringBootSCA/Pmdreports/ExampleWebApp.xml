@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.16.0" timestamp="2019-09-16T20:43:37.393">
+<file name="C:\Users\320065410\eclipse-workspace\ExampleWebApp\src\main\java\com\philips\Standardclass.java">
+<violation beginline="9" endline="9" begincolumn="8" endcolumn="11" rule="UnconditionalIfStatement" ruleset="Error Prone" package="com.philips" class="Standardclass" method="sayHelloWorld" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#unconditionalifstatement" priority="3">
+Do not use if statements that are always true or always false
+</violation>
+<violation beginline="10" endline="10" begincolumn="10" endcolumn="13" rule="UnconditionalIfStatement" ruleset="Error Prone" package="com.philips" class="Standardclass" method="sayHelloWorld" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#unconditionalifstatement" priority="3">
+Do not use if statements that are always true or always false
+</violation>
+</file>
+<file name="C:\Users\320065410\eclipse-workspace\ExampleWebApp\src\test\java\com\test\AppTest.java">
+<violation beginline="12" endline="15" begincolumn="10" endcolumn="3" rule="MethodNamingConventions" ruleset="Code Style" package="com.test" class="AppTest" method="Test1" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The JUnit 4 test method name 'Test1' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="C:\Users\320065410\eclipse-workspace\ExampleWebApp\src\test\java\com\test\AppTest2.java">
+<violation beginline="13" endline="16" begincolumn="10" endcolumn="3" rule="MethodNamingConventions" ruleset="Code Style" package="com.test" class="AppTest2" method="Test2" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The JUnit 4 test method name 'Test2' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+</pmd>

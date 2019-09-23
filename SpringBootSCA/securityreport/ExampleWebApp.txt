@@ -1,0 +1,9 @@
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 6 - C:/Users/320065410/eclipse-workspace/ExampleWebApp\src\main\java\com\philips\Standardclass.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 43 - C:/Users/320065410/eclipse-workspace/ExampleWebApp\src\test\java\com\test\AppTest.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 61 - C:/Users/320065410/eclipse-workspace/ExampleWebApp\src\test\java\com\test\AppTest2.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.

@@ -1,0 +1,15 @@
+com\philips\Application.class
+com\philips\GatingService.class
+com\philips\ToolResult.class
+com\philips\CodeCoverageService.class
+com\philips\CyclomaticComplexityService.class
+com\philips\Results.class
+com\philips\UnitTestService.class
+com\philips\Commands.class
+com\philips\ResultsMapper.class
+com\philips\StaticToolController.class
+com\philips\StaticToolDaoImpl.class
+com\philips\StaticWarningsService.class
+com\philips\StaticToolDao.class
+com\philips\StaticToolService.class
+com\philips\SecurityService.class

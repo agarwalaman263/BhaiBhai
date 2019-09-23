@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.16.0" timestamp="2019-09-09T16:37:55.069">
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\Application.java">
+<violation beginline="9" endline="14" begincolumn="26" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.gating" class="Application" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\service\GatingService.java">
+<violation beginline="92" endline="92" begincolumn="20" endcolumn="32" rule="LocalVariableNamingConventions" ruleset="Code Style" package="com.gating.service" class="GatingService" method="saveResults" variable="CSV_SEPARATOR" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'CSV_SEPARATOR' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="126" endline="126" begincolumn="26" endcolumn="31" rule="CloseResource" ruleset="Error Prone" package="com.gating.service" class="GatingService" method="getLastRunResults" variable="reader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this BufferedReader object are closed after use
+</violation>
+<violation beginline="131" endline="131" begincolumn="9" endcolumn="47" rule="AssignmentInOperand" ruleset="Error Prone" package="com.gating.service" class="GatingService" method="getLastRunResults" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#assignmentinoperand" priority="3">
+Avoid assignments in operands
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\CyvisService.java">
+<violation beginline="105" endline="105" begincolumn="20" endcolumn="25" rule="CloseResource" ruleset="Error Prone" package="com.gating.staticanalysis.service" class="CyvisService" method="parseCyvisReport" variable="reader" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this BufferedReader object are closed after use
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\JacocoService.java">
+<violation beginline="152" endline="152" begincolumn="31" endcolumn="49" rule="UselessParentheses" ruleset="Code Style" package="com.gating.staticanalysis.service" class="JacocoService" method="run" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\staticanalysis\service\SimianService.java">
+<violation beginline="87" endline="87" begincolumn="7" endcolumn="77" rule="PreserveStackTrace" ruleset="Best Practices" package="com.gating.staticanalysis.service" class="SimianService" method="parseSimianTextReport" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_bestpractices.html#preservestacktrace" priority="3">
+New exception is thrown in catch block, original stack trace may be lost
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\PMDConfigService.java">
+<violation beginline="16" endline="16" begincolumn="21" endcolumn="29" rule="CloseResource" ruleset="Error Prone" package="com.gating.toolconfig.service" class="PMDConfigService" method="getConfig" variable="fileInput" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileInputStream object are closed after use
+</violation>
+<violation beginline="42" endline="42" begincolumn="28" endcolumn="34" rule="CloseResource" ruleset="Error Prone" package="com.gating.toolconfig.service" class="PMDConfigService" method="setConfig" variable="fileOut" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileOutputStream object are closed after use
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\SimianConfigService.java">
+<violation beginline="16" endline="16" begincolumn="21" endcolumn="29" rule="CloseResource" ruleset="Error Prone" package="com.gating.toolconfig.service" class="SimianConfigService" method="getConfig" variable="fileInput" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileInputStream object are closed after use
+</violation>
+<violation beginline="45" endline="45" begincolumn="28" endcolumn="34" rule="CloseResource" ruleset="Error Prone" package="com.gating.toolconfig.service" class="SimianConfigService" method="setConfig" variable="fileOut" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileOutputStream object are closed after use
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\ThresholdConfigService.java">
+<violation beginline="16" endline="16" begincolumn="21" endcolumn="29" rule="CloseResource" ruleset="Error Prone" package="com.gating.toolconfig.service" class="ThresholdConfigService" method="getThresholds" variable="fileInput" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileInputStream object are closed after use
+</violation>
+<violation beginline="56" endline="56" begincolumn="28" endcolumn="34" rule="CloseResource" ruleset="Error Prone" package="com.gating.toolconfig.service" class="ThresholdConfigService" method="setThresholds" variable="fileOut" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this FileOutputStream object are closed after use
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\toolconfig\service\VCGConfig.java">
+<violation beginline="3" endline="9" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.gating.toolconfig.service" class="VCGConfig" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'VCGConfig' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\utility\Utility.java">
+<violation beginline="6" endline="30" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="com.gating.utility" class="Utility" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+<violation beginline="6" endline="30" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="com.gating.utility" class="Utility" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'Utility' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\test\java\com\gating\service\GatingServiceTest.java">
+<violation beginline="48" endline="52" begincolumn="10" endcolumn="3" rule="MethodNamingConventions" ruleset="Code Style" package="com.gating.service" class="GatingServiceTest" method="JacocoDoesNotRun_WhenProjectDoesNotContainTestCases" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The JUnit 4 test method name 'JacocoDoesNotRun_WhenProjectDoesNotContainTestCases' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="59" endline="59" begincolumn="18" endcolumn="31" rule="LocalVariableNamingConventions" ruleset="Code Style" package="com.gating.service" class="GatingServiceTest" method="testGateCode" variable="SourceCodePath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'SourceCodePath' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="61" endline="61" begincolumn="12" endcolumn="15" rule="UselessParentheses" ruleset="Code Style" package="com.gating.service" class="GatingServiceTest" method="testGateCode" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\test\java\com\gating\staticanalysis\service\CyvisServiceTest.java">
+<violation beginline="39" endline="39" begincolumn="18" endcolumn="31" rule="LocalVariableNamingConventions" ruleset="Code Style" package="com.gating.staticanalysis.service" class="CyvisServiceTest" method="testRun" variable="SourceCodePath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'SourceCodePath' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="48" endline="50" begincolumn="10" endcolumn="3" rule="MethodNamingConventions" ruleset="Code Style" package="com.gating.staticanalysis.service" class="CyvisServiceTest" method="GetIssuesCount_throwsExceptionInputReportNotFound" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The JUnit 4 test method name 'GetIssuesCount_throwsExceptionInputReportNotFound' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\test\java\com\gating\staticanalysis\service\SimianServiceTest.java">
+<violation beginline="24" endline="24" begincolumn="18" endcolumn="31" rule="LocalVariableNamingConventions" ruleset="Code Style" package="com.gating.staticanalysis.service" class="SimianServiceTest" method="testRun" variable="SourceCodePath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'SourceCodePath' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="34" endline="34" begincolumn="18" endcolumn="35" rule="LocalVariableNamingConventions" ruleset="Code Style" package="com.gating.staticanalysis.service" class="SimianServiceTest" method="testParseSimianReport" variable="SIMIAN_REPORT_PATH" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'SIMIAN_REPORT_PATH' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="43" endline="49" begincolumn="10" endcolumn="3" rule="MethodNamingConventions" ruleset="Code Style" package="com.gating.staticanalysis.service" class="SimianServiceTest" method="parseSimianReportThrowsException_WhenItsUnableToFindReport" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The JUnit 4 test method name 'parseSimianReportThrowsException_WhenItsUnableToFindReport' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="45" endline="45" begincolumn="18" endcolumn="35" rule="LocalVariableNamingConventions" ruleset="Code Style" package="com.gating.staticanalysis.service" class="SimianServiceTest" method="parseSimianReportThrowsException_WhenItsUnableToFindReport" variable="SIMIAN_REPORT_PATH" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'SIMIAN_REPORT_PATH' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\test\java\com\gating\staticanalysis\service\VCGServiceTest.java">
+<violation beginline="22" endline="27" begincolumn="10" endcolumn="3" rule="MethodNamingConventions" ruleset="Code Style" package="com.gating.staticanalysis.service" class="VCGServiceTest" method="GetIssuesCount_throwsExceptionInputReportIsNotXML" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The JUnit 4 test method name 'GetIssuesCount_throwsExceptionInputReportIsNotXML' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="31" endline="31" begincolumn="18" endcolumn="31" rule="LocalVariableNamingConventions" ruleset="Code Style" package="com.gating.staticanalysis.service" class="VCGServiceTest" method="testRun" variable="SourceCodePath" externalInfoUrl="https://pmd.github.io/pmd/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'SourceCodePath' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+</pmd>

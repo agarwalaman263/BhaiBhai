@@ -1,0 +1,919 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="CyVis%20Graphical%20Interface_files/filelist.xml">
+<link rel=Edit-Time-Data href="CyVis%20Graphical%20Interface_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>CyVis Graphical User Interface: </title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Swinburne</o:Author>
+  <o:LastAuthor>Swinburne</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>239</o:TotalTime>
+  <o:Created>2006-06-22T00:40:00Z</o:Created>
+  <o:LastSaved>2006-06-22T06:40:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>943</o:Words>
+  <o:Characters>5378</o:Characters>
+  <o:Company>Swinburne University</o:Company>
+  <o:Lines>44</o:Lines>
+  <o:Paragraphs>12</o:Paragraphs>
+  <o:CharactersWithSpaces>6309</o:CharactersWithSpaces>
+  <o:Version>10.6714</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>90</w:Zoom>
+  <w:DontDisplayPageBoundaries/>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-AU;}
+p.style6, li.style6, div.style6
+	{mso-style-name:style6;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:#666666;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:24335876;
+	mso-list-template-ids:892637300;}
+@list l0:level1
+	{mso-level-start-at:2;
+	mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:right;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:240065077;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1645862992 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2
+	{mso-list-id:315961217;
+	mso-list-template-ids:1146246060;}
+@list l3
+	{mso-list-id:723144071;
+	mso-list-template-ids:-771214114;}
+@list l3:level1
+	{mso-level-start-at:5;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4
+	{mso-list-id:822350255;
+	mso-list-type:hybrid;
+	mso-list-template-ids:484365652 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l4:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l4:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5
+	{mso-list-id:940114067;
+	mso-list-template-ids:-2061468852;}
+@list l6
+	{mso-list-id:984814272;
+	mso-list-template-ids:-1683723270;}
+@list l6:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7
+	{mso-list-id:1202548028;
+	mso-list-type:hybrid;
+	mso-list-template-ids:632307048 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l7:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8
+	{mso-list-id:1344624428;
+	mso-list-type:hybrid;
+	mso-list-template-ids:282769208 67698713 1859407494 1232511590 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l8:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level2
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+@list l8:level3
+	{mso-level-number-format:alpha-upper;
+	mso-level-tab-stop:117.0pt;
+	mso-level-number-position:left;
+	margin-left:117.0pt;
+	text-indent:-18.0pt;}
+@list l8:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9
+	{mso-list-id:1368988324;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-995092284 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l9:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l10
+	{mso-list-id:1704282324;
+	mso-list-template-ids:1698737558;}
+@list l10:level1
+	{mso-level-start-at:2;
+	mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l11
+	{mso-list-id:1794710180;
+	mso-list-template-ids:-2119130094;}
+@list l11:level1
+	{mso-level-start-at:4;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l12
+	{mso-list-id:2034575906;
+	mso-list-template-ids:1200375518;}
+@list l13
+	{mso-list-id:2102211931;
+	mso-list-template-ids:575415294;}
+@list l13:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="6146"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:16.0pt;font-family:Arial'>CyVis
+Graphical Interface<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:14.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:14.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:14.0pt;font-family:Arial'>Contents<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal style='text-align:justify;mso-list:l1 level1 lfo3;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Starting the application </span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l1 level1 lfo3;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Creating and saving a project. </span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l1 level1 lfo3;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Viewing metrics </span></li>
+ <ol style='margin-top:0cm' start=1 type=a>
+  <li class=MsoNormal style='text-align:justify;mso-list:l1 level2 lfo3;
+      tab-stops:list 72.0pt'><span lang=EN-AU>Tree Structure </span></li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l1 level2 lfo3;
+      tab-stops:list 72.0pt'><span lang=EN-AU>Metrics panel </span></li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-align:justify;text-indent:
+-108.0pt;mso-text-indent-alt:-9.0pt;mso-list:l1 level3 lfo3;tab-stops:list 108.0pt'><![if !supportLists]><span
+lang=EN-AU><span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-AU>Tool bar </span></p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-align:justify;text-indent:
+-108.0pt;mso-text-indent-alt:-9.0pt;mso-list:l1 level3 lfo3;tab-stops:list 108.0pt'><![if !supportLists]><span
+lang=EN-AU><span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>ii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-AU>Chart Panel </span></p>
+
+<p class=MsoNormal style='margin-left:108.0pt;text-align:justify;text-indent:
+-108.0pt;mso-text-indent-alt:-9.0pt;mso-list:l1 level3 lfo3;tab-stops:list 108.0pt'><![if !supportLists]><span
+lang=EN-AU><span style='mso-list:Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>iii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-AU>Metrics Table </span></p>
+
+<ol style='margin-top:0cm' start=4 type=1>
+ <li class=MsoNormal style='text-align:justify;mso-list:l1 level1 lfo3;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Changing preferences</span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l1 level1 lfo3;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Editing projects</span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l1 level1 lfo3;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Generating reports.</span></li>
+</ol>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+lang=EN-AU><span style='mso-spacerun:yes'>      </span></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:14.0pt;font-family:Arial'>1. Starting
+the application: <o:p></o:p></span></b></p>
+
+<p class=style6 style='text-align:justify;text-indent:36.0pt'><span
+style='color:windowtext'>After extracting the zip file to the desired location,
+double click on the cyvis.jar file to run the application. This will launch the
+application. If in the rare case, you seem to be having a problem with this,
+there is always the <span class=SpellE>cyvis.bat</span> you could run from the ‘bin’
+folder.</span><span style='font-size:10.0pt;color:windowtext'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:14.0pt;font-family:Arial'>2. Creating
+and saving a project: <o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>Click on the File</span><span lang=EN-AU style='font-family:Wingdings;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Wingdings'>à</span></span><span lang=EN-AU>New
+Project to create a new Project. This brings a screen as shown below. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-AU><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:300pt;
+ height:337.5pt'>
+ <v:imagedata src="CyVis%20Graphical%20Interface_files/image001.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=400 height=450
+src="CyVis%20Graphical%20Interface_files/image017.jpg" v:shapes="_x0000_i1025"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal style='text-align:justify;mso-list:l9 level1 lfo7;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Give the project a name</span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l9 level1 lfo7;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Select the directory where you
+     want the project file to be located.</span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l9 level1 lfo7;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Then add *.jar or *.class files to
+     your project by clicking on Add. Once you have added all the files you want.
+     You may also remove files by selecting them and clicking on Remove. </span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l9 level1 lfo7;
+     tab-stops:list 36.0pt'><span lang=EN-AU>To save the project Click on Save.
+     This creates a project file with the name that you have provided, in the
+     specified directory (in this instance myproject.cys will be created in C:\projectWorkspace\).
+     </span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l9 level1 lfo7;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Once you have saved the project,
+     you can click on Finish for CyVis to extract metrics and display it. </span></li>
+</ol>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:14.0pt;font-family:Arial'>3. Viewing
+metrics and what exactly do they mean.<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>Once the metrics has been extracted you are presented with a screen
+as shown below:</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-top:0cm;margin-right:-16.7pt;
+margin-bottom:0cm;margin-left:-18.0pt;margin-bottom:.0001pt;text-align:center'><span
+lang=EN-AU><!--[if gte vml 1]><v:shape id="_x0000_i1026" type="#_x0000_t75"
+ style='width:437.25pt;height:309pt'>
+ <v:imagedata src="CyVis%20Graphical%20Interface_files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=583 height=412
+src="CyVis%20Graphical%20Interface_files/image018.jpg" v:shapes="_x0000_i1026"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU>The screen is
+divided into two basic components. </span></p>
+
+<ol style='margin-top:0cm' start=1 type=a>
+ <li class=MsoNormal style='text-align:justify;mso-list:l8 level1 lfo10;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Tree Structure </span></li>
+</ol>
+
+<p class=MsoNormal style='margin-left:72.0pt;text-align:justify'><span
+lang=EN-AU>By default the tree structure shows you all the packages in your
+project. Each of these packages when expanded will display the classes and
+interfaces it contains.<span style='mso-spacerun:yes'>    </span></span></p>
+
+<ol style='margin-top:0cm' start=2 type=a>
+ <li class=MsoNormal style='text-align:justify;mso-list:l8 level1 lfo10;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Metrics Panel </span></li>
+</ol>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+lang=EN-AU><span style='mso-spacerun:yes'>                  </span>This panel
+is further subdivided into </span></p>
+
+<ol style='margin-top:0cm' start=2 type=a>
+ <ol style='margin-top:0cm' start=1 type=i>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo10;
+      tab-stops:list 72.0pt'><span lang=EN-AU>Toolbar </span></li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo10;
+      tab-stops:list 72.0pt'><span lang=EN-AU>Chart Panel<span
+      style='mso-spacerun:yes'>  </span></span></li>
+  <li class=MsoNormal style='text-align:justify;mso-list:l8 level2 lfo10;
+      tab-stops:list 72.0pt'><span lang=EN-AU>Metrics Table </span></li>
+ </ol>
+</ol>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU>Let us first
+have a look at the Chart Panel and revisit the toolbar later for better
+understanding. </span><b style='mso-bidi-font-weight:normal'><span lang=EN-AU
+style='font-size:11.0pt'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:13.0pt'>Chart Panel <o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>This is where the metrics are visualised. What do the charts mean or
+what can you infer by looking at them? </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU>The charting is
+done in three levels </span></p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal style='text-align:justify;mso-list:l7 level1 lfo15;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Project View </span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l7 level1 lfo15;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Package View </span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l7 level1 lfo15;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Class View <span style='mso-tab-count:
+     1'>      </span></span></li>
+</ol>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU
+style='font-size:13.0pt'>1. <i style='mso-bidi-font-style:normal'><u>Project
+View</u></i></span><span lang=EN-AU>: As soon as the metrics are extracted the
+chart panel will display many blocks like this- </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-AU><!--[if gte vml 1]><v:shape
+ id="_x0000_i1027" type="#_x0000_t75" style='width:242.25pt;height:168pt'>
+ <v:imagedata src="CyVis%20Graphical%20Interface_files/image005.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=323 height=224
+src="CyVis%20Graphical%20Interface_files/image019.jpg" v:shapes="_x0000_i1027"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>Each of these blocks represents a separate package in your project.
+The package name will be displayed at the top of each chart.<span
+style='mso-spacerun:yes'>  </span>Each package chart consists of numerous
+vertical bars, representing a Class or an Interface in that package. </span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>By clicking on any of these blocks you will be taken to the Package
+View for that package. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU
+style='font-size:13.0pt'>2. <i style='mso-bidi-font-style:normal'><u>Package
+View</u></i>:</span><span lang=EN-AU> Package view will show all the classes
+and Interfaces in a particular package. The difference between this view and
+the Project view is that here you look at only one package whereas in the
+project view you can look at all the packages. In addition to that, when you
+move the mouse over any specific vertical bar, a tool tip pops up with the
+metrics of that particular class/Interface as shown below.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-AU><!--[if gte vml 1]><v:shape
+ id="_x0000_i1028" type="#_x0000_t75" style='width:414.75pt;height:309.75pt'>
+ <v:imagedata src="CyVis%20Graphical%20Interface_files/image007.png" o:title="&#20;&#63110;&quot;&#58696;&#18;h"/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=413
+src="CyVis%20Graphical%20Interface_files/image020.jpg" v:shapes="_x0000_i1028"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>You may also click on the vertical bars to see a particular
+Class/Interface in detail (which brings up the Class View). The classes are
+arranged based on their size with the biggest class placed in the left hand
+side and the smaller ones in the right. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU>3</span><span
+lang=EN-AU style='font-size:13.0pt'>. <i style='mso-bidi-font-style:normal'><u>Class
+View</u></i>:</span><span lang=EN-AU> The class view will show one vertical bar
+representing the class/interface selected as shown in the diagram below.<span
+style='mso-spacerun:yes'>    </span></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-AU><!--[if gte vml 1]><v:shape
+ id="_x0000_i1029" type="#_x0000_t75" style='width:414.75pt;height:309.75pt'>
+ <v:imagedata src="CyVis%20Graphical%20Interface_files/image009.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=553 height=413
+src="CyVis%20Graphical%20Interface_files/image021.jpg" v:shapes="_x0000_i1029"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>This vertical bar is divided into many smaller rectangles, each representing
+a method in that class/interface. These smaller rectangles vary in size
+indicating their size with respect to other methods. The most complex method is
+at the top and the least at the bottom. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><i style='mso-bidi-font-style:
+normal'><u><span lang=EN-AU style='font-size:13.0pt'>Colouring and Metrics</span></u></i><span
+lang=EN-AU style='font-size:13.0pt'>: <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>The colouring of the methods in each of the views is done according
+to their Cyclomatic Complexity. By default any method with a Cyclomatic
+Complexity less that or equal to three is coloured green, anything beyond that
+and less than seven is coloured yellow and everything else is red. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>Interfaces are coloured grey, and empty interfaces are white. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>You can change these defaults (colours and cyclomatic complexity
+ranges) in the preferences dialog. </span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify'><span
+lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:13.0pt'>Metric Table<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:11.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+lang=EN-AU><span style='mso-spacerun:yes'> </span>The table just below the
+chart panel displays the metrics for that particular view. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:13.0pt'>Toolbar</span></b><span
+lang=EN-AU style='font-size:13.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-AU><!--[if gte vml 1]><v:shape
+ id="_x0000_i1030" type="#_x0000_t75" style='width:379.5pt;height:48.75pt'>
+ <v:imagedata src="CyVis%20Graphical%20Interface_files/image011.png" o:title="&#20;&#63110;&quot;&#58696;&#18;h"/>
+</v:shape><![endif]--><![if !vml]><img width=506 height=65
+src="CyVis%20Graphical%20Interface_files/image022.jpg" v:shapes="_x0000_i1030"><![endif]></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<ol style='margin-top:0cm' start=1 type=1>
+ <li class=MsoNormal style='text-align:justify;mso-list:l4 level1 lfo18;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Moves to previous view </span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l4 level1 lfo18;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Go one level up (i.e. if you are
+     in class level to package level or from package level to project level) </span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l4 level1 lfo18;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Moves to next view. </span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l4 level1 lfo18;
+     tab-stops:list 36.0pt'><span lang=EN-AU>When relative is selected all the classes
+     in a package are shown as having the same size, whereas the absolute view
+     displays the classes in relation to one another. The diagram below shows
+     the two views in package level.<span style='mso-spacerun:yes'>   </span></span></li>
+</ol>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-AU><!--[if gte vml 1]><v:shape
+ id="_x0000_i1031" type="#_x0000_t75" style='width:369pt;height:178.5pt'>
+ <v:imagedata src="CyVis%20Graphical%20Interface_files/image013.png" o:title="&#20;&#63110;&quot;&#58696;&#18;h"/>
+</v:shape><![endif]--><![if !vml]><img width=492 height=238
+src="CyVis%20Graphical%20Interface_files/image023.jpg" v:shapes="_x0000_i1031"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<ol style='margin-top:0cm' start=5 type=1>
+ <li class=MsoNormal style='text-align:justify;mso-list:l4 level1 lfo18;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Lets you zoom in and out. </span></li>
+ <li class=MsoNormal style='text-align:justify;mso-list:l4 level1 lfo18;
+     tab-stops:list 36.0pt'><span lang=EN-AU>Just Legend.</span></li>
+</ol>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+lang=EN-AU style='font-size:10.0pt'><span style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU
+style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:14.0pt;font-family:Arial'>4. Changing
+Preferences</span></b><span lang=EN-AU style='font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU
+style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>To change the Cyclomatic Complexity, Chart Colouring and the
+directory where report should generated in click Metrics</span><span
+lang=EN-AU style='font-family:Wingdings;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Wingdings'><span style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>à</span></span><span
+lang=EN-AU>Preferences in the menu bar. Doing so shows the following:</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=EN-AU><!--[if gte vml 1]><v:shape
+ id="_x0000_i1032" type="#_x0000_t75" style='width:297.75pt;height:336pt'>
+ <v:imagedata src="CyVis%20Graphical%20Interface_files/image015.png" o:title="&#20;&#24662;&#26;&#58696;&#18;h"/>
+</v:shape><![endif]--><![if !vml]><img width=397 height=448
+src="CyVis%20Graphical%20Interface_files/image024.jpg" v:shapes="_x0000_i1032"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>Shown are the defaults. The report directory by default is the directory
+where the project is saved (the *.cys file) which can be changed if you choose
+to. The Metrics section allows you to change the range of cyclomatic complexity
+and the colour that represents them. Clicking on the colours launches a colour
+palette. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>Remember to save any changes you have made, so that they get
+applied. Restore Defaults restores the default for you.<span
+style='mso-spacerun:yes'>       </span></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-family:Arial'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:14.0pt;font-family:Arial'>5. Editing
+Projects<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>When you click File</span><span lang=EN-AU style='font-family:Wingdings;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-char-type:symbol;mso-symbol-font-family:Wingdings'><span style='mso-char-type:
+symbol;mso-symbol-font-family:Wingdings'>à</span></span><span lang=EN-AU>Edit
+Project, CyVis can take different actions based on whether a project is
+currently open or not. </span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>If a project is already open, CyVis displays the edit dialog with
+all the information of the current project. You can add/remove files; change
+the workspace or even the project name. Once you have finished editing save the
+project like you generally do. </span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>On the other hand if a project is not currently open, CyVis pops up
+an open dialog. Select the project file (*.cys) which you want to modify. Once
+you have selected your project, CyVis opens the edit menu. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span lang=EN-AU style='font-size:14.0pt;font-family:Arial'>6.
+Generating reports<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>Two types of reports are possible, HTML and TXT formats. The reports
+can be generated by either clicking Metrics</span><span lang=EN-AU
+style='font-family:Wingdings;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Wingdings'><span style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>à</span></span><span
+lang=EN-AU>Generate HTML Report or Metrics</span><span lang=EN-AU
+style='font-family:Wingdings;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Wingdings'><span style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>à</span></span><span
+lang=EN-AU>Generate TXT Report.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>You may also choose to do an XML Dump by clicking on Metric</span><span
+lang=EN-AU style='font-family:Wingdings;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";mso-char-type:symbol;mso-symbol-font-family:
+Wingdings'><span style='mso-char-type:symbol;mso-symbol-font-family:Wingdings'>à</span></span><span
+lang=EN-AU>Generate XML Dump.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:36.0pt'><span
+lang=EN-AU>The report and the dump files are automatically generated at the
+report directory. The report directory is the same as the project directory
+unless changed via preferences dialog. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><span
+style='mso-spacerun:yes'>    </span></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><span
+style='mso-spacerun:yes'> </span></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-AU><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

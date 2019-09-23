@@ -1,0 +1,7 @@
+Similarity Analyser 2.5.10 - http://www.harukizaemon.com/simian
+Copyright (c) 2003-2018 Simon Harris.  All rights reserved.
+Simian is not free unless used solely for non-commercial or evaluation purposes.
+{failOnDuplication=true, ignoreCharacterCase=true, ignoreCurlyBraces=true, ignoreIdentifierCase=true, ignoreModifiers=true, ignoreStringCase=true, threshold=3}
+Found 0 duplicate lines in 0 blocks in 0 files
+Processed a total of 20 significant (58 raw) lines in 3 files
+Processing time: 0.208sec

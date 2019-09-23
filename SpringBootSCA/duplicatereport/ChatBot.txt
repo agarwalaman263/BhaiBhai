@@ -1,0 +1,10 @@
+Similarity Analyser 2.5.10 - http://www.harukizaemon.com/simian
+Copyright (c) 2003-2018 Simon Harris.  All rights reserved.
+Simian is not free unless used solely for non-commercial or evaluation purposes.
+{failOnDuplication=true, ignoreCharacterCase=true, ignoreCurlyBraces=true, ignoreIdentifierCase=true, ignoreModifiers=true, ignoreStringCase=true, threshold=10}
+Found 12 duplicate lines with fingerprint 0bfbb0626c514586e067ca642039e574 in the following files:
+ Between lines 38 and 50 in C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\product\ProductUtilTest.java
+ Between lines 18 and 30 in C:\Users\320065410\Downloads\CHATBOT-AIML-SPRINGBOOT-master\src\test\java\com\main\product\ProductUtilTest.java
+Found 24 duplicate lines in 2 blocks in 1 files
+Processed a total of 691 significant (1390 raw) lines in 36 files
+Processing time: 0.306sec

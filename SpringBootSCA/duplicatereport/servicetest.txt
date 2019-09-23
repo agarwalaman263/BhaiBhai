@@ -1,0 +1,10 @@
+Similarity Analyser 2.5.10 - http://www.harukizaemon.com/simian
+Copyright (c) 2003-2018 Simon Harris.  All rights reserved.
+Simian is not free unless used solely for non-commercial or evaluation purposes.
+{failOnDuplication=true, ignoreCharacterCase=true, ignoreCurlyBraces=true, ignoreIdentifierCase=true, ignoreModifiers=true, ignoreStringCase=true, threshold=10}
+Found 12 duplicate lines with fingerprint b3b8e29228aad7e3d0d29a6381c219fa in the following files:
+ Between lines 27 and 43 in C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\test\java\com\gating\service\GatingServiceTest.java
+ Between lines 30 and 46 in C:\Users\320065410\Downloads\Code-Gating-RESTful-Service-In-Spring-master\src\main\java\com\gating\service\GatingService.java
+Found 24 duplicate lines in 2 blocks in 2 files
+Processed a total of 928 significant (1838 raw) lines in 27 files
+Processing time: 0.159sec

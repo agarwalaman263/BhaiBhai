@@ -1,0 +1,4 @@
+com.test,AppTest2,Test2,1,12,,<init>,1,11,
+com.test,AppTest,Test1,1,12,,<init>,1,11,
+com.philips,Standardclass,<init>,1,5,,sayGoodMorning,1,4,,sayHelloWorld,1,4,
+com.philips,Standardclass,<init>,1,5,,sayGoodMorning,1,4,,sayHelloWorld,1,4,

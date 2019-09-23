@@ -1,0 +1,39 @@
+Similarity Analyser 2.5.10 - http://www.harukizaemon.com/simian
+Copyright (c) 2003-2018 Simon Harris.  All rights reserved.
+Simian is not free unless used solely for non-commercial or evaluation purposes.
+{failOnDuplication=true, ignoreCharacterCase=true, ignoreCurlyBraces=true, ignoreIdentifierCase=true, ignoreModifiers=true, ignoreStringCase=true, threshold=1}
+Found 1 duplicate lines with fingerprint 3c05b7b0280313610996b14dad40dcba in the following files:
+ Between lines 75 and 76 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\Commands.java
+ Between lines 58 and 59 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\Commands.java
+Found 1 duplicate lines with fingerprint b0d81c2eb7406470cbc36fe8846e4117 in the following files:
+ Between lines 48 and 51 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\StaticToolDaoImpl.java
+ Between lines 42 and 45 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\StaticToolDaoImpl.java
+ Between lines 36 and 39 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\StaticToolDaoImpl.java
+ Between lines 30 and 33 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\StaticToolDaoImpl.java
+Found 1 duplicate lines with fingerprint 6a71c8cc4212b4caea697f88b866e914 in the following files:
+ Between lines 23 and 26 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\UnitTestServiceTest.java
+ Between lines 16 and 19 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\UnitTestServiceTest.java
+Found 1 duplicate lines with fingerprint a64b13a40d8ad42876c7a068f7477cd8 in the following files:
+ Between lines 10 and 12 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\ExampleWebApp\src\test\java\com\test\AppTestTwo.java
+ Between lines 10 and 11 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\ExampleWebApp\src\test\java\com\test\AppTest.java
+Found 2 duplicate lines with fingerprint ab1a44e25914a3d7ba4126ab832619d1 in the following files:
+ Between lines 15 and 17 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\GatingService.java
+ Between lines 23 and 25 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\GatingService.java
+ Between lines 31 and 33 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\main\java\com\philips\GatingService.java
+Found 2 duplicate lines with fingerprint b6dc0ef29004a3c631961dd3870bd152 in the following files:
+ Between lines 20 and 24 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\StaticToolServiceTest.java
+ Between lines 28 and 32 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\StaticToolServiceTest.java
+Found 2 duplicate lines with fingerprint 0513c2ef6ead4c4cc68a69aaf18ac66f in the following files:
+ Between lines 56 and 58 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\CommandsTest.java
+ Between lines 67 and 69 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\CommandsTest.java
+ Between lines 79 and 81 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\CommandsTest.java
+ Between lines 91 and 93 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\CommandsTest.java
+ Between lines 106 and 108 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\CommandsTest.java
+ Between lines 117 and 119 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\CommandsTest.java
+ Between lines 127 and 129 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\CommandsTest.java
+Found 4 duplicate lines with fingerprint 6cd047f4e87c09dab888031bfa770d08 in the following files:
+ Between lines 79 and 83 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\CommandsTest.java
+ Between lines 106 and 110 in C:\Users\320065410\eclipse-workspace\SpringBootSCA\src\test\java\com\philips\CommandsTest.java
+Found 38 duplicate lines in 22 blocks in 8 files
+Processed a total of 762 significant (1392 raw) lines in 28 files
+Processing time: 0.614sec
